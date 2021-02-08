@@ -1,6 +1,6 @@
 # Definisikan class Karyawan berikut dengan attribut dan fungsinya
 class Karyawan:
-    nama_perusahaan = 'ABC'
+    nama_perusahaan = "ABC"
     insentif_lembur = 250000
 
     def __init__(self, nama, usia, pendapatan):
@@ -20,12 +20,12 @@ class Karyawan:
 
 
 # Buat object dari karwayan bernama Aksara dan Senja
-aksara = Karyawan('Aksara', 25, 8500000)
-senja = Karyawan('Senja', 28, 12500000)
+aksara = Karyawan("Aksara", 25, 8500000)
+senja = Karyawan("Senja", 28, 12500000)
 # Aksara melaksanakan lembur
 aksara.lembur()
 # Senja memiliki proyek tambahan
 senja.tambahan_proyek(2500000)
 # Cetak pendapatan total Aksara dan Senja
-print('Pendapatan Total Aksara: ' + str(aksara.total_pendapatan()))
-print('Pendapatan Total Senja: ' + str(senja.total_pendapatan()))
+print("Pendapatan Total Aksara: " + str(aksara.total_pendapatan()))
+print("Pendapatan Total Senja: " + str(senja.total_pendapatan()))
